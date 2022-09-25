@@ -1,0 +1,76 @@
+.viewSchedule {
+  background: rgb(224, 221, 198);
+}
+
+.main {
+  border: 2px solid #dee2e6;
+  height: auto;
+}
+
+#col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+#col-2 {
+  text-align: -webkit-center;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+h5 {
+  text-align: center;
+  margin: auto;
+}
+
+#row-2 {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+#select-1 {
+  display: contents;
+}
+
+#date-1 {
+  margin: auto;
+}
+
+#date {
+  height: auto;
+}
+
+#create-1 {
+  margin: 5%;
+  text-align: end;
+}
+
+#create {
+  height: auto;
+}
+
+#schedule_table {
+  width: 90%;
+  text-align: center;
+}
+
+#modal-view {
+  min-width: 50%;
+}
+
+#exampleModalLabel-header {
+  margin-left: 37%;
+}
+
+#error{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

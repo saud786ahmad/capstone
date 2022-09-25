@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-color: #fff !important;
+}
+#root{
+height: 100%;
+}
+
+.container ,.row {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/****************** User Profile ***************************/
+body {
+  /* background: rgb(224, 221, 198) */
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8
+}
+
+.profile-button {
+  background: rgb(224, 221, 198);
+  box-shadow: none;
+  border: none
+}
+
+.profile-button:hover {
+  background: #682773
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+.labels {
+  font-size: 20px;
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+
+i{
+   cursor: pointer; 
+}
+
+.errors{
+   color: red;
+   font-weight: 900;
+}
+/******************** User Profile End ***************************/
+
+/************************ Doctors Profile Start ***********************/
+.doctorProfileInput input
+{
+    height: 30px;   
+}
+
+.patientProfileInput input
+{
+    height: 30px;   
+}
+/************************ Doctors Profile End ***********************/
+
+
+/****************************Footer Styling ***********************/
+
+/************************ SideNavBar Styling **************************************/
+.list-group-item
+{
+   cursor: pointer;
+}
+
+.list-group a{
+   text-decoration: none;
+   color: black;
+}
+.active a{
+   color : #fff !important;
+}
+/**************************************************************/
+
+/************************************Page Not Found****************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+.pageNotFound{
+    height: 88vh;
+    background: #000000;
+    text-align: center;
+    color: #E0E0E0;
+    font-family: 'Fira Mono', monospace;
+}
+.pagenotfoundh1{
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.pagenotfounddiv{
+    transform-style: preserve-3d;
+}
+.pagenotfoundsvg{
+    width: clamp(300px , 70% , 600px);
+    height: 500px;
+  
+}
+#rocket{
+    
+    transform: translateY(750px);
+   
+    animation: launch 2s ease-out forwards;
+}
+
+@keyframes launch {
+    from {
+        transform: translateY(750px);
+    }
+    to{
+        perspective: 500px;
+        transform: translateY(0px); 
+    }
+}
+#stars {
+    animation: twinkling 2s linear ;
+}
+@keyframes twinkling {
+
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.pagenotfoundtext{
+    opacity: 0;
+    animation:appear 1s ease-in forwards;
+    animation-delay: 1.8s;
+    margin-top: -186px !important;
+    text-align: center;
+    color: white;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.pagenotfoundAnchor{
+    color:#F66947;
+    text-decoration: none;
+}
+/**********************************Page Not Found End*********************************************************/
+
+
+/*********************/
+.activeNavBar
+{
+   font-weight: 900;
+   border-bottom: 3px solid dimgrey;
+}
+
+/******************** Header ***************/
+.registerBtn{
+  margin-right: 4px;
+}
